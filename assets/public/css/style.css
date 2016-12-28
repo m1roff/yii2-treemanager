@@ -1,0 +1,19 @@
+
+.tree-item-carrier {
+    border-bottom: 1px solid lightgrey;
+    padding-top: 4px;
+}
+
+.tree-item {
+    line-height: 1.42857143;
+    vertical-align: center;
+    text-align: left;
+}
+
+.tree-item-carrier:hover {
+    background-color: #f5f5f5;
+}
+
+.tree-item-carrier.selectedit {
+    background-color: lightgrey;
+}

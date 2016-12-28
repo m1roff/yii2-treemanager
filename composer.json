@@ -1,0 +1,28 @@
+{
+  "name": "mirkhamidov/yii2-treemanager",
+  "description": "Simple Tree Manager",
+  "keywords": ["yii2", "yii2-treemanager", "mirkhamidov", "tree", "manager"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/mirkhamidov/yii2-treemanager/issues?state=open",
+    "source": "https://github.com/mirkhamidov/yii2-treemanager"
+  },
+  "authors": [
+    {
+      "name": "Jasur Mirkhamidov",
+      "email": "mirkhamidov.jasur@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "^2.0.0",
+    "creocoder/yii2-nested-sets": "0.9.*",
+    "rmrevin/yii2-fontawesome": "~2.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "mirkhamidov\\treemanager\\": ""
+    }
+  }
+}
